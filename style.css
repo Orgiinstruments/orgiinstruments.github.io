@@ -109,8 +109,14 @@ footer {
 .contact-link:hover {
     text-decoration: underline;
 }
+    .hero-logo {
+    width: 120px;      /* controls the size */
+    height: auto;      /* keeps aspect ratio */
+    margin: 0 20px;    /* spacing */
+}
 
 }
+
 
 
 
