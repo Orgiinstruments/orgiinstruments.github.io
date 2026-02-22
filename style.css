@@ -108,15 +108,10 @@ footer {
 
 .contact-link:hover {
     text-decoration: underline;
-    .hero-logo {
-    width: 80px;      /* size of image */
-    height: auto;      /* keeps correct proportions */
-    margin: 0 20px;    /* space between both logos */
-    vertical-align: middle;
-}
 }
 
 }
+
 
 
 
