@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: #0047ab;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* HERO SECTION */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: #e7f0ff;
+}
+
+.btn {
+    display: inline-block;
+    background: #0047ab;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #003b8b;
+}
+
+/* SECTIONS */
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+.service-list {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+/* CERTIFICATE BOX */
+.certificate-box {
+    padding: 30px;
+    border: 2px dashed #0047ab;
+    margin: 30px auto;
+    width: 60%;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    background: #0047ab;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 700px) {
+    nav {
+        display: block;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
