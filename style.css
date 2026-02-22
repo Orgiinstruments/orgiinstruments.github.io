@@ -14,6 +14,14 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+.logo-img {
+    height: 50px;
+    margin-right: 20px;
+}
+.nabl-img {
+    height: 50px;
+    margin-right: 40px;
+}
 
 .logo {
     margin: 0;
@@ -103,3 +111,4 @@ footer {
 }
 
 }
+
