@@ -92,4 +92,14 @@ footer {
         display: block;
         margin: 10px 0;
     }
+    .contact-link {
+    color: #0047ab;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
 }
